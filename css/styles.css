@@ -4,22 +4,6 @@ body {
   color: #434455;
 }
 
-h2 {
-  color: #2E2F42;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-
-
-
-
-
 a {
   text-decoration: none;
 }
@@ -117,6 +101,19 @@ li {
 }
 
 /*SECTION POSITIVE QUALITIES*/
+.section-title {
+  color: #2E2F42;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+
+}
+
 .list-title {
   color: #2E2F42;
   font-family: "Roboto";
@@ -138,7 +135,11 @@ li {
   letter-spacing: 0.32px;
 
 }
+
 /*SECTION OUR TEAM*/
-.our-team{
+.our-team {
   background-color: #F4F4FD;
+}
+.list-our-team{
+  background-color: #FFFFFF;
 }
