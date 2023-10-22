@@ -4,8 +4,36 @@ body {
   color: #434455;
 }
 
+h2 {
+  color: #2E2F42;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #2E2F42;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
 p {
   color: #434455;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 a {
@@ -58,6 +86,7 @@ li {
 
 .contacts {
   font-style: normal;
+
 }
 
 .link-contacts {
@@ -65,10 +94,11 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
 }
 
 .link-contacts:hover,
-:focus {
+.link-contacts:focus {
   color: #404bbf;
 }
 
@@ -98,6 +128,6 @@ li {
 }
 
 .hero-button:hover,
-:focus {
+.hero-button:focus {
   background-color: #404BBF;
 }
