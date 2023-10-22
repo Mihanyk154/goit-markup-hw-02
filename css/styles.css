@@ -16,25 +16,9 @@ h2 {
   text-transform: capitalize;
 }
 
-h3 {
-  color: #2E2F42;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
 
-p {
-  color: #434455;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
+
+
 
 a {
   text-decoration: none;
@@ -130,4 +114,31 @@ li {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404BBF;
+}
+
+/*SECTION POSITIVE QUALITIES*/
+.list-title {
+  color: #2E2F42;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+
+}
+
+.list-text {
+  color: #434455;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+
+}
+/*SECTION OUR TEAM*/
+.our-team{
+  background-color: #F4F4FD;
 }
